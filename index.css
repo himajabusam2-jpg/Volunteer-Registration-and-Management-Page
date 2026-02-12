@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+}
+div{
+    display: inline-block;
+}
+header{
+    margin-top: 0px;
+    background-color: rgb(32, 94, 63);
+    height: 50px;
+    width: 1500px;
+    position: fixed;
+}
+#logo{
+    
+    margin-top: 15px;
+    padding-left: 0px;
+    color:white;
+}
+#nav{
+    margin-top: 15px;
+    margin-left: 510px;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    margin-right: 10px;
+    color:aliceblue
+}
+#join{
+    color:black;
+    background-color:rgb(189, 44, 44);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+}
+span{
+    height:10px;
+    margin-left:10px;
+    color:white;
+   
+}
+#main{
+    background-image: url("volunteer.jpg");
+    background-size: cover;
+    height:400px;
+    text-align:left;
+    color:rgba(3, 2, 2, 0.836)
+}
+h1{
+    margin-left: 30px;
+    margin-top:80px;
+    width:400px;
+    margin-bottom: 5px;
+    
+}
+#p{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.button{
+    margin-top: 20px;
+    color:aliceblue;
+    background-color: rgba(1, 104, 1, 0.842);
+    border-radius: 10px;
+    height: 30px;
+    margin-right:10px ;
+    width:150px;
+}
+#s2{
+    text-align: center;
+    background-color: rgb(224, 238, 231);
+    padding-bottom: 40px;
+}
+#heading{
+    margin-top: 40px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#line2{
+   
+    font-style: italic;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+#Flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.impact{
+    height: 130px;
+    width: 250px;
+    background-color: aliceblue;
+    border-color: bisque;
+    border-radius: 10px;
+    border: 2px;
+    padding: 10px;
+    padding-top:40px;
+}
+.impact:hover{
+    background-color: rgb(124, 182, 148);
+}
+#s1{
+    height: 250px;
+    background-color: rgb(224, 238, 231);
+    text-align: center;
+    margin-top: 0px;
+}
+#h3{
+    margin-top: 40px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+#b1{
+   margin-top: 50px;
+   height: 50px;
+   width: 300px;
+   background-color: rgba(1, 104, 1, 0.842);
+   font-size: 20px;
+   border-radius: 10px;
+   color:aliceblue;
+   font-family: 'Times New Roman', Times, serif;
+}
+#id2{
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+#icon{
+    font-size: 30px;
+}
+footer{
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+}
+#nav2{
+    color:aliceblue;
+    margin-left: 150px;
+    text-align: center;
+    font-size: small;
+    
+}
+#tag{
+    color:pink;
+    text-align:right;
+    margin-top: 0;
+    margin-right: 30px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="register.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <header>
+        <span><i class="fa-solid fa-handshake-angle"></i></span>
+        <div id="logo">Volunteer Hub</div>
+        <div id="nav">
+                <a href="index.html" class="head">Home</a>
+                <a href="register.html" class="head">Register</a>
+                <a href="dashboard.html" class="head">Dashboard</a>
+                <a href="register.html" class="head"><button id="join">Join</button></a>
+        </div>
+    </header>
+    <section>
+        <div id="register">
+        <p id="heading">Volunteer Registration Form</p>
+        <p id="line">Register and join with us.</p>
+        </div>
+    <form id="myForm">
+        
+    <div id="form">
+            <div id="pi">
+            <p style="font-size: 20px;">Personal Information</p>
+            <div id="Name">
+                <div>
+                <label for="FName">First Name:</label><br>
+                <input type="text" name="name" id="FName" class="name" placeholder="Enter First Name" required>
+                <p id="fn"></p>
+                </div>
+                <div>
+                <label for="Lname">Last Name:</label><br>
+                <input type="text" name="LN" id="Lname" class="name" placeholder="Enter Last Name" required>
+                <p id="ln"></p>
+            </div>
+            </div>
+            <br>
+            <div id="margin">
+                <label for="email">Email: </label><br>
+                <input type="email" name="Email" id="email" class="textarea" placeholder="Example@gmail.com" required>
+                <p id="mail"></p>
+            </div><br><br>
+            <div id="margin">
+                <label for="Phno">Phone Number:</label>
+                <input type="text" name="ph" id="phno" class="textarea" placeholder="+91(123)" required>
+                <p id="ph"></p>
+            </div>
+        </div>
+            <div id="margin">
+                <p>Gender:</p>
+                <input type="radio" name="Gender" id="male" value="M" required>
+                <label for="male">Male </label>
+                <input type="radio" name="Gender" id="female" value="F">
+                <label for="female">female </label>
+                <input type="radio" name="Gender" id="other" value="O">
+                <label for="other">Other </label>
+                <p id="gen"></p>
+            </div><br>
+            <p style="font-size: 20px;">Availability</p>
+            <div id="margin">
+                <label for="available">When You are available? <br></label>
+                <select name="Availability" id="available" class="textarea"  required>
+                    <option value="" disabled selected>Select availability</option>
+                    <option value="mrg">Morning</option>
+                    <option value="Evg">Evening</option>
+                    <option value="flex">Flexible</option>
+                </select>
+                <p id="avail"></p>
+            </div>
+            <br>
+            <p style="font-size: 20px;">Skills & Interests</p>
+            <div>
+                <input type="checkbox" name="skills" id="teach" value="Teaching" class="check">
+                <label for="teach">Teaching </label><br>
+                <input type="checkbox" name="skills" id="Event" value="Event Planing" class="check">
+                <label for="Event">Event Planing </label><br>
+                <input type="checkbox" name="skills" id="Photography" value="Photography" class="check">
+                <label for="Photography">Photography </label><br>
+                <input type="checkbox" name="skills" id="cook" value="Cooking" class="check">
+                <label for="cook">Cooking </label><br>
+                <input type="checkbox" name="skills" id="mentor" value="Mentoring" class="check">
+                <label for="mentor">Mentoring </label><br>
+                <input type="checkbox" name="skills" id="Music" value="Music" class="check">
+                <label for="Music">Music</label><br>
+                <input type="checkbox" name="skills" id="IT" value="IT support" class="check">
+                <label for="IT">IT support </label><br>
+                <p id="skill"></p>
+            </div><br><br>
+            <p style="font-size: 20px;">Additional Information</p>
+            <div id="margin">
+                <label for="ai">Why do you want to Volunteer?</label>
+                <textarea name="ai" id="ai" placeholder="Tell us what motivate you..." class="textarea" style="height: 50px;"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="Submit" value="Submit" id="submit">
+            </div>
+        
+    </div>
+    </form>
+    
+   
+    </section>
+    <footer>
+        <span><i class="fa-solid fa-handshake-angle"></i></span>
+        <div id="logo">Volunteer Hub</div>
+        <div id="nav2">
+            <nav>
+                <a class="head" href="index.html">Home&nbsp;</a>
+                <a class="head" href="register.html">&nbsp;Register &nbsp; </a>
+                <a class="head" href="dashboard.html">  &nbsp;Dashboard</a>
+            </nav>
+        </div>
+        <p id="tag" >Together we serve. Together we grow.<span><i class="fa-solid fa-handshake-angle"></i></span></p>
+    </footer>
+    <script src="register.js"></script>
+        
+</body>
+</html>

@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+}
+div{
+    display: inline-block;
+}
+header{
+    margin-top: 0px;
+    background-color: rgb(32, 94, 63);
+    height: 50px;
+    width: 1500px;
+    position: fixed;
+}
+#logo{
+    
+    margin-top: 15px;
+    padding-left: 0px;
+    color:white;
+}
+#nav{
+    margin-top: 15px;
+    margin-left: 510px;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    margin-right: 10px;
+    color:aliceblue
+}
+#join{
+    color:black;
+    background-color:rgb(189, 44, 44);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+}
+span{
+    height:10px;
+    margin-left:10px;
+    color:white;
+   
+}
+#form{
+    align-self: center;
+    width: 600px;
+    border-color: rgb(213, 233, 208);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-top:50px;
+    background-color:rgb(213, 233, 208);
+    padding: 30px;
+    margin: 50px;
+    margin-top: 10px;
+    margin-left: 200px; 
+}
+#register{
+    align-self: center;
+}
+#heading{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+#line{
+    margin-top: 0px;
+    font-style: italic;
+
+}
+#Name{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 35px;
+}
+section{
+    background-color: rgb(244, 253, 244);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.textarea{
+    font-size: 10px;
+    width: 500px;
+    height: 18px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color:rgb(244, 253, 244);
+    border-color:rgb(244, 253, 244);
+
+}
+.name{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(244, 253, 244);
+    border-color:rgb(244, 253, 244);
+    font-size: 10px;
+    height: 18px;
+    width: 200px;
+}
+.check{
+    margin-left: 80px;
+}
+#fn,#ln,#avail,#mail,#ph,#gen,#skill{
+    font-size: 10px;
+    color:red;
+}
+#submit{
+    margin-top: 20px;
+    color:aliceblue;
+    background-color: rgba(1, 104, 1, 0.842);
+    border-radius: 10px;
+    height: 30px;
+    margin-left:250px ;
+    width:150px;
+}
+footer{
+    
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+}
+#margin{
+    margin-left: 80px;
+}
+#nav2{
+    color:aliceblue;
+    margin-left: 150px;
+    text-align: center;
+    font-size: small;
+    
+}
+#tag{
+    color:pink;
+    text-align:right;
+    margin-top: 0;
+    margin-right: 30px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <span><i class="fa-solid fa-handshake-angle"></i></span>
+        <div id="logo">Volunteer Hub</div>
+        <div id="nav">
+                <a href="index.html" class="head">Home</a>
+                <a href="register.html" class="head">Register</a>
+                <a href="dashboard.html" class="head">Dashboard</a>
+                <a href="register.html" class="head"><button id="join">Join</button></a>
+        </div>
+    </header>
+    <section>
+    <div id="header">
+        <p id="heading">Volunteer Dashboard</p>
+        <p id="line">Manage and track Volunteer Community</p>
+    </div>
+    <div id="table">
+        <input type="text" id="searchInput" placeholder=" 🔍 Search for volunteers" onkeyup="searchItem()">
+    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Skills</th>
+                    <th>Status</th>
+                    <th>Joined</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <span class="skill"></span>
+                        <span class="skill"></span>
+                    </td>
+                    <td><span class="status active"></span></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+</section>
+    <footer>
+        <span><i class="fa-solid fa-handshake-angle"></i></span>
+        <div id="logo">Volunteer Hub</div>
+        <div id="nav2">
+            <nav>
+                <a class="head" href="index.html">Home&nbsp;</a>
+                <a class="head" href="register.html">&nbsp;Register &nbsp; </a>
+                <a class="head" href="dashboard.html">  &nbsp;Dashboard</a>
+            </nav>
+        </div>
+        <p id="tag" >Together we serve. Together we grow.<span><i class="fa-solid fa-handshake-angle"></i></span></p>
+    </footer>
+    <script src="dashboard.js"></script>
+</body>
+</html>

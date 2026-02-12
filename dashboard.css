@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+div{
+    display: inline-block;
+}
+header{
+    margin-top: 0px;
+    background-color: rgb(32, 94, 63);
+    height: 50px;
+    width: 1500px;
+    position: fixed;
+}
+#logo{
+    
+    margin-top: 15px;
+    padding-left: 0px;
+    color:white;
+}
+#nav{
+    margin-top: 15px;
+    margin-left: 510px;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    margin-right: 10px;
+    color:aliceblue
+}
+#join{
+    color:black;
+    background-color:rgb(189, 44, 44);
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+}
+#searchInput{
+    
+    border-radius: 10px;
+    padding:6px; 
+    margin-bottom: 10px;
+    width:800px;
+    height: 30px;
+    border-color: aliceblue;
+}
+span{
+    height:10px;
+    margin-left:10px;
+    color:white;
+   
+}
+section{
+    background-color: rgb(224, 238, 231);
+}
+#header{
+    margin-top: 50px; 
+    height: 100px;
+    margin-left: 20px;
+}
+#heading{
+    font-size: 30px;
+    margin-bottom: 0px
+}
+#line{
+    margin-top: 0px;
+    font-style: italic;
+    font-size: 13px;
+
+}
+#table{
+    margin-top: 0px;
+    margin-left: 100px;
+    height: 500px;
+}
+.table-container {
+    background: aliceblue;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid #e5e7eb;
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: aliceblue;
+}
+
+th {
+    text-align: left;
+    padding: 14px;
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 600;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+td {
+    padding: 14px;
+    font-size: 14px;
+    color: #111827;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.skill {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 2px;
+    font-size: 12px;
+    border-radius: 999px;
+    background-color: #bac4da;
+    color: #111827;
+    font-weight: 500;
+}
+
+.skill.extra {
+    background-color: #e5e7eb;
+}
+
+.active {
+    background-color: #dcfce7;
+    color: #16a34a;
+    border: 1px solid #86efac;
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.inactive {
+    background-color: #ffedd5;
+    color: #f97316;
+    border: 1px solid #fed7aa;
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+
+footer{
+    
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+}
+#nav2{
+    color:aliceblue;
+    margin-left: 150px;
+    text-align: center;
+    font-size: small;
+    
+}
+#tag{
+    color:pink;
+    text-align:right;
+    margin-top: 0;
+    margin-right: 30px;
+}
